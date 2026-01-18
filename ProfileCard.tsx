@@ -132,3 +132,5 @@ export const ProfileCard: React.FC<ProfileCardProps> = ({ profile, index, onView
     </div>
   );
 };
+
+export default ProfileCard;
