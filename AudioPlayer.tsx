@@ -147,3 +147,5 @@ export const AudioPlayer: React.FC = () => {
     </div>
   );
 };
+
+export default AudioPlayer;
