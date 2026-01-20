@@ -56,3 +56,4 @@ export default function AudioPlayer() {
     </div>
   );
 }
+export default AudioPlayer;
