@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { AppSection, ACDMProfile } from './types';
 import AudioPlayer from './components/AudioPlayer';
-import { ProfileCard } from './components/ProfileCard';
+import ProfileCard from './components/ProfileCard';
 import { Terminal, Shield, Globe, HardDrive, Info, AlertTriangle, Lock, Unlock, Eye, EyeOff, Database, X, User, Activity, Zap, Cpu, Scan, Target, Camera, Sword, Flame, Scissors, Boxes, Binary, Radio, Crosshair, ZapOff, Layers, ChevronRight, Frame } from 'lucide-react';
 
 const ACDM_DATA: ACDMProfile = {
