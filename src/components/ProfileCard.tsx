@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { ACDMProfile } from '../types';
 import { ChevronRight, FileText, Scan, Crosshair, Target } from 'lucide-react';
@@ -9,7 +8,7 @@ interface ProfileCardProps {
   onViewDetails: () => void;
 }
 
-export const ProfileCard: React.FC<ProfileCardProps> = ({ profile, index, onViewDetails }) => {
+const ProfileCard: React.FC<ProfileCardProps> = ({ profile, index, onViewDetails }) => {
   return (
     <div className="bg-[#0a0a0a] border border-zinc-800 p-8 rounded-sm hover:border-zinc-700 transition-all group relative overflow-hidden">
       <div className="flex flex-col lg:flex-row gap-10">
@@ -132,3 +131,5 @@ export const ProfileCard: React.FC<ProfileCardProps> = ({ profile, index, onView
     </div>
   );
 };
+
+export default ProfileCard;
